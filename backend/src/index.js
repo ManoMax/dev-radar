@@ -1,10 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const routes = require('./routs')
+const routes = require('./routes')
 
 const app = express();
 
-mongoose.connect('mongodb+srv://ManoMax:senha123@cluster0-3lcaa.mongodb.net/test?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://ManoMax:senha123@cluster0-3lcaa.mongodb.net/bancoDeDados?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
