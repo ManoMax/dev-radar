@@ -1,8 +1,14 @@
 import React from 'react';
 
+// Componente: Bloco isolado de HTML, CSS e JS, o qual não interfere no restante da aplicação
+// Estado
+// Propriedade
+
+import Header from './Header';
+
 function App() {
   return (
-    <h1>Hello World</h1>
+    <Header/>
   );
 }
 
