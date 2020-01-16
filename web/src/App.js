@@ -32,14 +32,18 @@ function App() {
       }
     )
   }, []);
+  // Utilizando [] como segundo argumento, o useEffect será disparado uma única vez.
+  // Caso tenha [variavel], sempre que a variavel mudar o valor, o useEffect será disparado.
 
   useEffect(() => {
+    // Cria a função
     async function loadDevs() {
       const response = await api.get('/devs');
 
       setDevs(response.data);
     }
 
+    // Instância assincrona.
     loadDevs();
   }, [])
   
