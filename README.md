@@ -5,11 +5,13 @@
 
 
 ### Para compilar o FrontEnd:
-    Use o comando, no terminal: yarn start
+    > Instalar o node_modules: npm install react-scripts --save
+    > Instalar o axios: yarn add axios
+    > Use o comando, no terminal: yarn start
     
 
 ### Para compilar o BackEnd:
-    Use o comando, no terminal: yarn dev
+    > Use o comando, no terminal: yarn dev
 
 <p><i>
   
