@@ -9,6 +9,7 @@ import api from '../services/api';
 function Main({ navigation }) {
     const [devs, setDevs] = useState([]);
     const [currentRegion, setCurrentRegion] = useState(null);
+    const [techs, setTechs] = useState('');
 
     async function loadDevs() {
         const { latitude, longitude } = currentRegion;
@@ -17,11 +18,11 @@ function Main({ navigation }) {
             params: {
                 latitude,
                 longitude,
-                techs: 'ReactJS'
+                techs
             }
         });
 
-        setDevs(response.data);
+        setDevs(response.data.devs);
     }
 
     function handleRegionChanged(region) {
@@ -62,40 +63,45 @@ function Main({ navigation }) {
             initialRegion={currentRegion}
             style={styles.map}
         >
-            <Marker
-            coordinate={{
-                latitude: -7.2334418,
-                longitude: -35.8869266
-                }}
-            >
-                <Image
-                    style={styles.avatar}
-                    source={{ uri: 'https://avatars0.githubusercontent.com/u/34282197?s=460&v=4' }}
-                />
-
-                <Callout onPress={() => {
-                    // Navegacao
-                    navigation.navigate('Profile', { github_username: 'ManoMax' })
-                }}>
-                    <View style={styles.callout}>
-                        <Text style={styles.devName}>ManoMax</Text>
-                        <Text style={styles.devBio}>Biografia</Text>
-                        <Text style={styles.devTechs}>Minhas, Tech, nologias</Text>
-                    </View>
-                </Callout>
-            </Marker>
+            {devs.map(dev => (
+                <Marker
+                key={dev._id}
+                coordinate={{
+                    longitude: dev.location.coordinates[0],
+                    latitude: dev.location.coordinates[1],
+                    }}
+                >
+                    <Image
+                        style={styles.avatar}
+                        source={{ uri: dev.avatar_url }}
+                    />
+    
+                    <Callout onPress={() => {
+                        // Navegacao
+                        navigation.navigate('Profile', { github_username: dev.github_username })
+                    }}>
+                        <View style={styles.callout}>
+                            <Text style={styles.devName}>{dev.name}</Text>
+                            <Text style={styles.devBio}>{dev.devBio}</Text>
+                            <Text style={styles.devTechs}>{dev.techs.join(', ')}</Text>
+                        </View>
+                    </Callout>
+                </Marker>
+            ))}
         </MapView>
 
         <View style={styles.searchForm}>
             <TextInput
                 style={styles.searchInput}
                 placeholder="Buscar devs por techs..."
-                placeholderTextColor="#999 "
+                placeholderTextColor="#999"
                 autoCapitalize="words"
                 autoCorrect={false}
+                value={techs}
+                onChangeText={setTechs}
             />
 
-            <TouchableOpacity onPress={() => {}}style={styles.loadButton}>
+            <TouchableOpacity onPress={loadDevs}style={styles.loadButton}>
                 <MaterialIcons name="my-location" size={20} color="#FFF"/>
             </TouchableOpacity>
         </View>
