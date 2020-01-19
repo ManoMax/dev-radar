@@ -100,7 +100,7 @@ function Main({ navigation }) {
                     }}>
                         <View style={styles.callout}>
                             <Text style={styles.devName}>{dev.name}</Text>
-                            <Text style={styles.devBio}>{dev.devBio}</Text>
+                            <Text style={styles.devBio}>{dev.bio}</Text>
                             <Text style={styles.devTechs}>{dev.techs.join(', ')}</Text>
                         </View>
                     </Callout>
