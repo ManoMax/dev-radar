@@ -1,8 +1,8 @@
 # RadarDev
 ## semanaOmnistack10
 
-#### O aplicativo, GeoLocalizador, RadarDev trabalha com a necessidade de encontrar Programadores, em um raio de 10 Km de distância, com qualidade profissional e que trabalhe com as Linguagens de Programação de seu interesse.
-#### Oferecendo, além da localização e serviço do programador, sua respectiva Página Git, onde é possível visualizar seu Portifólio.
+#### O aplicativo, GeoLocalizador, RadarDev trabalha com a necessidade de encontrar Programadores, próximos a ti, com qualidade profissional e que trabalhe com as Linguagens de Programação de seu interesse.
+#### Além da localização do programador, o App oferece sua respectiva Página Github, onde é possível visualizar seu Portifólio.
 
 #### Página Web:
 <p align="center">
