@@ -13,7 +13,13 @@ function Main({ navigation }) {
     const [techs, setTechs] = useState('');
 
     function setupWebsocket() {
-        connect();
+        const { latitude, longitude } = currentRegion;
+
+        connect(
+            latitude,
+            longitude,
+            techs,
+        );
     }
 
     async function loadDevs() {
