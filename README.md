@@ -1,4 +1,4 @@
-# RadarDev
+# :rocket: RadarDev
 ##### Event: SemanaOmnistack10 | Course by: [RocketSeat](https://github.com/Rocketseat) | Teacher: [@diego3g](https://github.com/diego3g)
 
 <p>
