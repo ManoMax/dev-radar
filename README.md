@@ -1,5 +1,5 @@
 # RadarDev
-## semanaOmnistack10
+### Event: SemanaOmnistack10 | Course by: [RocketSeat](https://github.com/Rocketseat) | Teacher: [@diego3g](https://github.com/diego3g)
 
 #### O aplicativo RadarDev, utilizando tecnologia GeoLocalizadora, trabalha com a possibilidade de encontrar Programadores, com capacitação técnica na LP de interesse, com a distancia de 10km de onde a consulta está sendo efetuada.
 #### Além da localização do programador, o App oferece sua respectiva Página Github, onde é possível visualizar seu Portifólio.
