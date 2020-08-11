@@ -1,4 +1,7 @@
 # :rocket: RadarDev
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b2ae38dd80784fc4b4ac22631674c2ae)](https://app.codacy.com/manual/ManoMax/dev-radar?utm_source=github.com&utm_medium=referral&utm_content=ManoMax/dev-radar&utm_campaign=Badge_Grade_Settings)
+
 ##### Event: SemanaOmnistack10 | Course by: [RocketSeat](https://github.com/Rocketseat) | Teacher: [@diego3g](https://github.com/diego3g)
 
 <p>
