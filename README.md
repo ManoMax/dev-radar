@@ -25,6 +25,7 @@ Além da localização do programador, o App oferece sua respectiva Página Gith
 $ yarn dev
 
 # Para executar a aplicação Web:
+
 # Acesse a pasta '/frontend' e instale as dependências:
 $ npm install react-scripts --save
 $ yarn add axios
@@ -33,6 +34,7 @@ $ yarn start
 # A aplicação rodará no link de acesso <http://localhost:3333>.
 
 # Para executar a aplicação Mobile:
+
 # Acesse a pasta '/web' e compile:
 $ yarn start
 # Acesse via aplicativo (android ou IOS) Expo + QR Code.
