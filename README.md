@@ -41,6 +41,13 @@ $ yarn start
 # Ou acesse via Android Studio, no Computador.
 ```
 
+### :hammer: Tecnologias utilizadas:
+
+- [React](https://pt-br.reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [axios](https://github.com/axios/axios)
+- [MongoDB](https://docs.mongodb.com/)
+
 <p><i>
   
 >*Author: [@ManoMax](https://github.com/ManoMax)*
