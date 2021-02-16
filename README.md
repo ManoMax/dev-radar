@@ -20,7 +20,7 @@ Além da localização do programador, o App oferece sua respectiva Página Gith
 <h3> :computer: Página Web: </h3>
 
 <p>
-  <img width="600" height="360" src="https://i.imgur.com/FDSYTKb.png?1">
+  <img width="610" height="320" src="https://i.imgur.com/FDSYTKb.png?1">
 </p>
 
 <h3> :atom_symbol: Execute em sua máquina: </h3>
