@@ -1,26 +1,30 @@
 <h1 align="center"> :rocket: DevRadar </h1>
 
-##### Event: SemanaOmnistack10 | Course by: [RocketSeat](https://github.com/Rocketseat) | Teacher: [@diego3g](https://github.com/diego3g)
+<h5> Event: SemanaOmnistack10 | Course by: <a href="https://github.com/Rocketseat">RocketSeat</a> | Teacher: <a href="https://github.com/diego3g">@diego3g</a> </h5>
 
 <p>
+  <h3>:clipboard: Sobre:</h3>
+  
 O aplicativo DevRadar, utilizando tecnologia GeoLocalizadora, trabalha com a possibilidade de cadastrar, via web, <br>
-e encontrar, via mobile, desenvolvedores que possuam habilidades na LP de interesse, no limite de 10km de onde a consulta está sendo efetuada.<br>
+e encontrar, via mobile, desenvolvedores que possuam habilidades na LP de interesse, no limite de 10km de onde a consulta está sendo efetuada.<br><br>
 Além da localização do programador, o App oferece sua respectiva Página Github, onde é possível visualizar o Portifólio do desenvolvedor selecionado.
 </p>
 
-### :iphone: Mobile:
+<h3> :iphone: Mobile: </h3>
 <p>
   <img width="200" height="360" src="https://i.imgur.com/vMxfI2h.png?1">
   <img width="200" height="360" src="https://i.imgur.com/1xFem3W.png?1">
   <img width="200" height="360" src="https://i.imgur.com/Q0eUzKs.png?1">
 </p>
 
-### :computer: Página Web:
+<h3> :computer: Página Web: </h3>
+
 <p>
   <img width="600" height="360" src="https://i.imgur.com/FDSYTKb.png?1">
 </p>
 
-### :atom_symbol: Execute em sua máquina:
+<h3> :atom_symbol: Execute em sua máquina: </h3>
+
 ```bash
 # Primeiro acesse a pasta '/backend' e compile o backend:
 $ yarn dev
@@ -42,7 +46,7 @@ $ yarn start
 # Ou acesse via Android Studio, no Computador.
 ```
 
-### :hammer: Tecnologias utilizadas:
+<h3> :hammer: Tecnologias utilizadas: </h3>
 
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
